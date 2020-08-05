@@ -13,6 +13,7 @@
     $ctrl.user = UserService.user;
 
     $ctrl.signUp = function () {
+     
       var favourite = $ctrl.user.favouriteDish;
       if (favourite && favourite.trim()) {
         favourite = favourite.toUpperCase();
@@ -25,6 +26,7 @@
       else {
         $ctrl.favouriteInvalid = false;
         $ctrl.signupDone = true;
+        
       }
     }
   }

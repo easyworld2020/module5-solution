@@ -33,7 +33,7 @@
         <div class="form-group">
           <label for="usr">Favourite dish (optional)</label>
           <input type="text" class="form-control" name="favouriteDish" ng-model="signUpCtrl.user.favouriteDish">
-          <span ng-if="signUpCtrl.favouriteInvalid &amp;&amp; signUpForm.favourite.$touched">
+          <span ng-if="signUpCtrl.favouriteInvalid">
             No such menu number exists.
           </span>
 
