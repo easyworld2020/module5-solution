@@ -5,14 +5,14 @@
         <div class="form-group">
           <label for="usr">First name</label>
           <input type="text" class="form-control" name="firstName" ng-model="signUpCtrl.user.firstName" required="" minlength="1">
-          <span ng-if="(signupForm.firstname.$error.minlength || signupForm.firstname.$error.required) &amp;&amp; signupForm.firstname.$touched">
+          <span ng-if="(signupForm.firstName.$error.minlength || signupForm.firstName.$error.required) &amp;&amp; signupForm.firstName.$touched">
               First name is required
           </span>
         </div>
         <div class="form-group">
           <label for="usr">Last name</label>
           <input type="text" class="form-control" name="lastName" ng-model="signUpCtrl.user.lastName" required="" minlength="1">
-          <span ng-if="(signupForm.lastname.$error.minlength || signupForm.lastname.$error.required) &amp;&amp; signupForm.lastname.$touched">
+          <span ng-if="(signupForm.lastName.$error.minlength || signupForm.lastName.$error.required) &amp;&amp; signupForm.lastName.$touched">
               Last name is required
           </span>
         </div>
